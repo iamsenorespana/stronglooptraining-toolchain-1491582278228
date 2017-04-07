@@ -1,0 +1,36 @@
+{
+  "name": "strongloop-training",
+  "version": "0.2.0",
+  "description": "Web application to host and serve strongloop training materials",
+  "main": "server/server.js",
+  "private": true,
+  "dependencies": {
+    "async": "^1.5.0",
+    "bower": "^1.4.1",
+    "express": "^4.12.4",
+    "extend": "^3.0.0",
+    "jade": "^1.10.0",
+    "jshint": "^2.7.0",
+    "q": "^1.4.1",
+    "serve-static": "^1.9.3"
+  },
+  "devDependencies": {
+    "jshint": "^2.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/strongloop-training/training.strongloop.com"
+  },
+  "author": "Jordan Kasper",
+  "license": "All rights reserved",
+  "homepage": "https://training.strongloop.com",
+  "scripts": {
+    "start": "node server/server.js",
+    "pretest": "./node_modules/jshint/bin/jshint .",
+    "test": "echo '>>> No tests currently created!'",
+    "postinstall": "./node_modules/bower/bin/bower install"
+  },
+  "engines": {
+    "node": "0.12.2"
+  }
+}

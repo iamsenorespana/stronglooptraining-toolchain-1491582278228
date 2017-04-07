@@ -1,0 +1,42 @@
+meta(charset='UTF-8')
+meta(http-equiv='content-type', content='text/html; charset=utf-8')
+
+title #{title}
+
+meta(name='description', content='#{description}')
+meta(name='viewport', content='width=device-width, initial-scale=1')
+
+link(rel='stylesheet' href='/vendor/reveal.js/css/reveal.css')
+link(rel='stylesheet' href='/css/reveal-ibm-strongloop.css' id='theme')
+link(rel='stylesheet' href='/css/tomorrow.min.css')
+
+script.
+    (function() {
+        if( window.location.search.match( /print-pdf/gi ) ) {
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = '/vendor/reveal.js/css/print/pdf.css';
+            document.getElementsByTagName('head')[0].appendChild( link );
+            
+            (window.addEventListener || window.attachEvent)('load', function() {
+                // replicate header/footer on body to be on each slide
+                var header = document.querySelector('.reveal header');
+                var footer = document.querySelector('.reveal footer');
+                [].slice.call(document.querySelectorAll('.reveal section'), 0)
+                    .forEach(function(slide, i) {
+                        slide.innerHTML = header.outerHTML + slide.innerHTML + footer.outerHTML;
+                    });
+                var reveal = document.querySelector('.reveal');
+                reveal.removeChild(header);
+                reveal.removeChild(footer);
+                
+                // force "print" dialog to appear, allowing for print or save as PDF
+                window.print();
+            });
+        }
+    })();
+
+<!--[if lt IE 9]>
+<script src='/vendor/reveal.js/lib/js/html5shiv.js'></script>
+<![endif]-->

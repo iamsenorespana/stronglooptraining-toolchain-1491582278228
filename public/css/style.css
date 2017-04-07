@@ -1,0 +1,201 @@
+
+/* ******** FOTNS ********* */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(/font/open-sans.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(/font/open-sans-bold.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Open Sans Italic'), local('OpenSans-Italic'), url(/font/open-sans-italic.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(/font/open-sans-bold-italic.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+
+/* ******** GENERICS ********* */
+
+body {
+    color: #666666;
+    font-size: 100%;
+    font-family: 'Open Sans','HelveticaNeue','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.wrapper {
+    max-width: 1030px;
+    margin: 0 auto;
+}
+.clear {
+    clear: both;
+}
+
+a, a:visited {
+    color: #719430;
+    text-decoration: none;
+}
+a:hover, a:active {
+    color: #719430;
+    text-decoration: underline;
+}
+
+html,body,div,ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h2, h3, h4 {
+    color: #719430;
+}
+h2 {
+    font-size: 2em;
+}
+h3 {
+    font-size: 1.8em;
+}
+
+p {
+    font-family: 'Ubuntu',Helvetica,Arial,sans-serif;
+    font-size: 1.1em;
+    line-height: 1.7em;
+}
+
+
+/* ******** HEADER ********* */
+
+header {
+    border-bottom: 1px solid #E1E1E1;
+}
+    
+h1 {
+    float: left;
+    width: 47%;
+    color: #07582b;
+    font-size: 2.3em;
+    font-weight: bold;
+}
+h1 img {
+    width: 8em;
+    margin-right: 0.5em;
+    vertical-align: middle;
+    vertical-align: -1em;
+}
+
+header.main nav {
+    float: left;
+    width: 50%;
+    margin-top: 2.5em;
+    text-align: right;
+}
+header.main li {
+    display: inline;
+    margin-right: 1.5em;
+}
+header.main nav a, header.main nav a:visited {
+    color: #919191;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+header.main nav a:hover, header.main nav a:active {
+    color: #666666;
+    text-decoration: none;
+}
+
+
+/* ******** FOOTER ********* */
+
+footer nav {
+    background-color: #898989;
+    font-size: 0.8em;
+    padding: 3em 0;
+}
+footer nav section {
+    float: left;
+    margin-right: 5em;
+}
+footer h2 {
+    color: #a9a9a9;
+    text-transform: uppercase;
+}
+footer a, footer a:visited {
+    color: #F9F9F9
+}
+footer a:hover, footer a:active {
+    color: #FCFCFC
+}
+
+footer .copyright {
+    color: #666666;
+    font-size: 0.7em;
+    padding: 0.7em 0 2.2em 0;
+}
+
+
+/* ******** HOMEPAGE ********* */
+
+.intro {
+    margin: 2em auto 1em auto;
+    padding-bottom: 3em;
+    border-bottom: 1px solid #E1E1E1;
+}
+.intro h2, .intro h3, .training-types h2, .training-types h3 {
+    text-align: center;
+}
+
+.training-types {
+    margin: 1em auto;
+}
+.training-types article {
+    width: 27%;
+    float: left;
+    margin-right: 7%;
+    margin-bottom: 3em;
+}
+.training-types .last {
+    margin-right: 0;
+}
+
+.conversation {
+    background-color: #dedede;
+    padding: 2em 0;
+    text-align: center;
+}
+
+.praise {
+    padding: 2em 0;
+}
+.praise article {
+    width: 31%;
+    margin: 1em 1%;
+    float: left;
+}
+.praise p {
+    background-color: #f8f8f8;
+    border: 1px solid #e1e1e1;
+    padding: 0.6em;
+    margin: 0;
+}
+.praise cite {
+    font-weight: bold;
+    color: #000000;
+    font-size: 0.9em;
+    font-style: normal;
+}
+

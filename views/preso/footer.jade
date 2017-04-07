@@ -1,0 +1,14 @@
+script(src="/vendor/lodash/lodash.min.js")
+script(src="/vendor/reveal.js/lib/js/head.min.js")
+script(src="/vendor/reveal.js/js/reveal.js")
+script(src='/vendor/highlightjs/highlight.pack.js')
+
+| <script>
+| window.revealOptions =
+if reveal
+    != JSON.stringify(reveal)
+else
+    | '{}'
+| ;</script>
+
+script(src='/js/preso.js')

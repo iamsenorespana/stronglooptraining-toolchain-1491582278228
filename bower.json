@@ -1,0 +1,16 @@
+{
+  "name": "strongloop-training",
+  "version": "0.2.0",
+  "homepage": "https://training.strongloop.com",
+  "authors": [
+    "Jordan Kasper"
+  ],
+  "license": "All rights reserved",
+  "private": true,
+  "dependencies": {
+    "reveal.js": "~3.1.0",
+    "highlightjs": "~8.5.0",
+    "lodash": "~3.9.3",
+    "marked": "~0.3.3"
+  }
+}

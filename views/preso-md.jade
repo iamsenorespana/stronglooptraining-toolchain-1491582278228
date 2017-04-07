@@ -1,0 +1,30 @@
+- var year = new Date().getFullYear();
+doctype html
+html
+    head
+        include preso/head.jade
+    
+    body
+        div.reveal
+            
+            header
+                img.logo#ibm-logo(src="/images/ibm-logo.png", alt="IBM")
+                if isMultiContent
+                    a.print(href="?print-pdf", title="Get a PDF of this presentation")
+                        | download
+                        img(src="/images/pdf-icon.png", alt="PDF")
+                img.logo#ibm-strongloop-logo(src="/images/ibm-strongloop-logo.png", alt="Strongloop: An IBM Company")
+
+            div.slides
+                section(
+                    data-markdown="#{slides}"
+                    data-separator="^\\r?\\n\\-\\-\\-\\r?\\n"
+                    data-separator-vertical="^\\r?\\n\\|\\|\\|\\r?\\n"
+                    data-separator-notes="^\\^"
+                    data-charset="utf-8"
+                )
+            
+            footer
+                div.copyright &copy; #{year} IBM Corporation
+
+        include preso/footer.jade

@@ -1,0 +1,9 @@
+extend static/layout
+
+block content
+    p.
+        Sorry, but it looks like there was an error!
+    
+    section.error
+        h3.status #{error.status}
+        p #{error.message}

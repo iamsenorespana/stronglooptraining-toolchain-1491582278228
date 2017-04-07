@@ -1,0 +1,280 @@
+{
+    "demo": {
+        "title": "Training Demo",
+        "description": "A demo of the StrongLoop training delivery site",
+        "slides": "/presentations/demo.md",
+        "footer": true,
+        "auth": {
+            "user": "strongloop",
+            "pass": "training"
+        },
+        "reveal": {
+            "controls": true
+        }
+    },
+    "demo-html": {
+        "title": "Training Demo - HTML",
+        "description": "A demo of the StrongLoop training delivery site",
+        "slides": "/presentations/demo.html",
+        "auth": null
+    },
+    "demo-pdf": {
+        "title": "Training Demo - PDF",
+        "description": "A demo of the StrongLoop training delivery site",
+        "slides": "/presentations/demo.pdf",
+        "auth": null
+    },
+    
+    
+    "api-composition": {
+        "title": "Node.js API Composition with LoopBack and StrongLoop Arc",
+        "description": "A 3-part webinar series on building APIs in Node.js using the open source LoopBack framework and StrongLoop Arc",
+        "slides": "/presentations/api-composition.md",
+        "footer": true,
+        "auth": null
+    },
+    "api-composition-2": {
+        "title": "Creating a Node.js API From an Existing Database",
+        "description": "A 3-part webinar series on building APIs in Node.js using the open source LoopBack framework and StrongLoop Arc",
+        "slides": "/presentations/api-composition-existing-db.md",
+        "footer": true,
+        "auth": null
+    },
+    "api-composition-3": {
+        "title": "LoopBack APIs: Beyond the Basics",
+        "description": "A 3-part webinar series on building APIs in Node.js using the open source LoopBack framework and StrongLoop Arc",
+        "slides": "/presentations/loopback-beyond-basics.md",
+        "footer": true,
+        "auth": null
+    },
+    
+    
+    "js-node-fundamentals": {
+        "title": "JavaScript and Node.js Fundamentals",
+        "description": "A talk covering some basics of JavaScript and Node.js fundamentals.",
+        "slides": "/presentations/js-node-fundamentals.md",
+        "footer": true,
+        "auth": null
+    },
+    
+    "ca-api-security": {
+        "title": "API Security, Customization, and Mobile Backends",
+        "description": "A talk in conjunction with CA covering some basics of authentication, authorization, and access control for LopoBack APIs",
+        "slides": "/presentations/ca-api-security.md",
+        "footer": true,
+        "auth": null
+    },
+    
+    "ca-tracing": {
+        "title": "Transaction Tracing & Root Cause Analysis with StrongLoop Arc",
+        "description": "A talk in conjunction with CA covering how to monitor and profile Node applications and then do root cause analysis on them using Strongloop's Arc interface.",
+        "slides": "/presentations/ca-tracing.md",
+        "footer": true,
+        "auth": null
+    },
+    
+    "debugging-node": {
+        "title": "Debugging Node.js",
+        "description": "A talk covering some basics of debugging in Node.js.",
+        "slides": "/presentations/debugging-node.md",
+        "footer": true,
+        "auth": null
+    },
+    
+    "debug-node": {
+        "title": "Debugging and Profiling Node.js",
+        "description": "A talk covering some basics of debugging in Node.js.",
+        "slides": "/presentations/debugging-node-short.md",
+        "footer": true,
+        "auth": null
+    },
+    
+    "midwestjs": {
+        "title": "Node.js Fundamentals and DevOps",
+        "description": "A talk covering the basics of Node.js and some developer operations concepts for debugging, monitoring, profiling, and scaling.",
+        "slides": "/presentations/node-and-devops-one-day.md",
+        "footer": true,
+        "auth": null
+    },
+    
+    "node-workshop": {
+        "title": "An Introduction to Node.js",
+        "description": "A talk covering the basics of Node.js and some developer operations concepts for debugging, monitoring, profiling, and scaling.",
+        "slides": "/presentations/node-and-devops-one-day.md",
+        "footer": true,
+        "auth": null
+    },
+    
+    "scaling-node": {
+        "title": "Triage, Diagnose, and Scale Node.js",
+        "description": "A talk covering the basics of triaging and debugging issues in Node.js and scaling an application.",
+        "slides": "/presentations/triage-diagnose-scale.md",
+        "footer": true,
+        "auth": null
+    },
+    
+    "node-apis": {
+        "title": "Developing and Scaling REST APIs in Node.js",
+        "description": "A workshop in building and scaling REST APIs in Node.js using the open source LoopBack framework.",
+        "slides": "/presentations/node-apis-workshop.md",
+        "footer": true,
+        "auth": null
+    },
+    "api-dev": {
+        "title": "Developing REST APIs in Node.js",
+        "description": "A talk about building REST APIs in Node.js using the open source LoopBack framework.",
+        "slides": "/presentations/node-apis.md",
+        "footer": true,
+        "auth": null
+    },
+    
+    "node-arch-and-express": {
+        "title": "Node Architecture and Getting Started with Express",
+        "description": "A talk covering some basics of Node.js architecture and how to get started with the Express.js framework",
+        "slides": "/presentations/node-arch-and-express.md",
+        "footer": true,
+        "auth": null
+    },
+    
+    "intro-to-loopback": {
+        "title": "Introduction to LoopBack",
+        "description": "An introduction to the LoopBack REST API framework for Node.js",
+        "slides": "/presentations/intro-to-loopback.md",
+        "footer": true,
+        "auth": null
+    },
+  
+      "intro-to-apiconnect-loopback": {
+        "title": "Introduction to APIConnect LoopBack",
+        "description": "An introduction to the API Connect LoopBack REST API framework for Node.js",
+        "slides": "/presentations/intro-to-apiconnect-loopback.md",
+        "footer": true,
+        "auth": null
+    },
+      
+    "zero-to-node": {
+        "title": "Zero to Node API in 30 Minutes",
+        "description": "An introduction to the LoopBack REST API framework for Node.js",
+        "slides": "/presentations/zero-to-node.md",
+        "footer": true,
+        "auth": null
+    },
+    
+    "node-and-php": {
+        "title": "Node.js: the 800-pound Gorilla",
+        "description": "An introduction to Node.js for PHP developers, some tips on integration, and why they should pay attention!",
+        "slides": "/presentations/node-and-php.md",
+        "footer": true,
+        "auth": null
+    },
+    
+    "node-and-java": {
+        "title": "Bridging the Java and Node.js Divide",
+        "description": "A talk covering some of the basics of Node.js, how it compares to Java, and why you should care.",
+        "slides": "/presentations/node-and-java.md",
+        "footer": true,
+        "auth": null
+    },
+    
+    "testing-node": {
+        "title": "Unit Testing Node.js",
+        "description": "An introduction to testing Node.js",
+        "slides": "/presentations/testing-node.md",
+        "footer": true,
+        "auth": null
+    },
+    
+    "node-gorilla": {
+        "title": "Node.js: the 800-pound Gorilla",
+        "description": "An introduction to Node.js for developers and why they should pay attention!",
+        "slides": "/presentations/node-gorilla.md",
+        "footer": true,
+        "auth": null
+    },
+    
+    
+    "galvanize": {
+        "title": "StrongLoop and Galvanize Node.js Training",
+        "description": "Four-day training in Node fundamentals and API development",
+        "slides": "/presentations/multi-day/landing-pages/galvanize.md",
+        "footer": false,
+        "isMulti": true,
+        "auth": {
+            "user": "strongloop",
+            "pass": "galvanize"
+        }
+    },
+    
+    "cwf": {
+        "title": "StrongLoop Node.js Training for CWF",
+        "description": "Four-day training in Node fundamentals and API development",
+        "slides": "/presentations/multi-day/landing-pages/cwf.md",
+        "footer": false,
+        "isMulti": true,
+        "auth": {
+            "user": "strongloop",
+            "pass": "williamsburg"
+        }
+    },
+    
+    "boa": {
+        "title": "StrongLoop Node.js and API Dev Training",
+        "description": "Training in Node fundamentals and API development from StrongLoop",
+        "slides": "/presentations/multi-day/landing-pages/boa.md",
+        "footer": false,
+        "isMulti": true,
+        "auth": {
+            "user": "strongloop",
+            "pass": "apidev-sep15"
+        }
+    },
+    
+    "td": {
+        "title": "StrongLoop Node.js and API Dev Training",
+        "description": "Training in Node fundamentals and API development from StrongLoop",
+        "slides": "/presentations/multi-day/landing-pages/td.md",
+        "footer": false,
+        "isMulti": true,
+        "auth": {
+            "user": "strongloop",
+            "pass": "td-bank-dev"
+        }
+    },
+    
+    "td-us": {
+        "title": "StrongLoop Node.js and API Dev Training",
+        "description": "Training in Node fundamentals and API development from StrongLoop",
+        "slides": "/presentations/multi-day/landing-pages/td-us.md",
+        "footer": false,
+        "isMulti": true,
+        "auth": {
+            "user": "strongloop",
+            "pass": "td-bank-dev"
+        }
+    },
+    
+    "symantec": {
+        "title": "StrongLoop Node.js and API Dev Training",
+        "description": "Training in Node fundamentals and API development from StrongLoop",
+        "slides": "/presentations/multi-day/landing-pages/symantec.md",
+        "footer": false,
+        "isMulti": true,
+        "auth": {
+            "user": "strongloop",
+            "pass": "sym-dev"
+        }
+    },
+    
+    "citi": {
+        "title": "StrongLoop Node.js DevOps Training",
+        "description": "Training in Node development operations from StrongLoop",
+        "slides": "/presentations/multi-day/landing-pages/citi.md",
+        "footer": false,
+        "isMulti": true,
+        "auth": {
+            "user": "strongloop",
+            "pass": "citi-dev"
+        }
+    }
+    
+}
